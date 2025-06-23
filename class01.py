@@ -4,8 +4,10 @@
 # user_name = "Ahmad Taimur"
 # UserName = "Ahmad Taimur"
 
+print(id("username"))
+# For checking id number (memory address)
 # num=1
-num = 10 * 20
 # print(userName)
-print(num)
+# print(num)
 # print(id(userName))
+
