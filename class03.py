@@ -21,3 +21,8 @@ result5 = num1 > num2
 #answer will be in boolean true or false
 print(result3)
 print(type(result3))
+result6 = result3 or result4 # for logical or
+# T T  True
+# T F  False
+# F T  False
+# F F  False
