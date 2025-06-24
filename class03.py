@@ -9,3 +9,8 @@ result1 = num3 // num4 # for floor division
 print(result)
 print(result1)
 
+# Operators precedence
+# - ()
+# - **
+# - / * // %
+# - + -
