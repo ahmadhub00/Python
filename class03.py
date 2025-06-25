@@ -21,8 +21,25 @@ result5 = num1 > num2
 #answer will be in boolean true or false
 print(result3)
 print(type(result3))
+
 result6 = result3 or result4 # for logical or
 # T T  True
-# T F  False
+# T F  True
+# F T  True
+# F F  False
+
+result7 = not(result3 and result4) # for logical and
+# T T  True
+# T F  False    
 # F T  False
 # F F  False
+
+# Assignment operators
+
+a= 10
+a += 5 # a = a + 5
+a *= 2 # a = a * 2
+a -= 10 # a = a - 10
+a //= 3 # a = a // 3
+a /= 2 # a = a / 2
+print(a)
