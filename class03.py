@@ -38,8 +38,22 @@ result7 = not(result3 and result4) # for logical and
 
 a= 10
 a += 5 # a = a + 5
-a *= 2 # a = a * 2
 a -= 10 # a = a - 10
-a //= 3 # a = a // 3
+a *= 2 # a = a * 2
+a **= 3 # a = a ** 3
 a /= 2 # a = a / 2
+a //= 3 # a = a // 3
 print(a)
+
+# Membership operators
+userName = "Ahmad Taimur"
+value = 'A' in userName
+value = 'a' not in userName
+print(value) # True
+
+#  identity operators
+x = 5
+y = 5
+z = 10
+print(x is y) # True
+print(x is not z) # True
