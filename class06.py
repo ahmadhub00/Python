@@ -18,3 +18,14 @@ elif num2 < 0:
     print("Negative number")
 else:
     print("Zero")
+    
+# Write a program that takes the user input number
+# and verify its even if its even check number is
+# greater than 50 if so print the number
+
+num3 = int (input("Enter a number: "))
+isEven = num3 % 2 == 0
+if isEven:
+        print("Even number")
+        if num3 > 50:
+            print("Number is greater than 50:", num3)
