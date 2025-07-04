@@ -9,3 +9,12 @@ if num1 % 2 == 0:
     print("Even number")
 else:
     print("Odd number")
+
+# write a program to check if the number is positive, negative or zero
+num2 = int(input("enter a number"))
+if num2 > 0:
+    print("Positive number")
+elif num2 < 0:
+    print("Negative number")
+else:
+    print("Zero")
